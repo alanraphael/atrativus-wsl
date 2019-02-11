@@ -93,3 +93,14 @@ body {
 .dropdown-menu {
     font-size: .875rem;
 }
+
+
+
+.card-dash {
+    font-size: 2rem;
+    text-align: right;
+}
+.card-dash span {
+    display: block;
+    font-size: .8rem;
+}
