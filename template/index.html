@@ -20,27 +20,32 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top flex-md-nowrap p-0 shadow bg-primary">
-        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Atrativus WSL</a>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top flex-md-nowrap p-0 shadow bg-primary">
+        <a class="navbar-brand col-6 col-sm-3 col-md-2 mr-0" href="#">Atrativus WSL</a>
 
-        <div class="collapse navbar-collapse flex-row-reverse">
-        <ul class="navbar-nav px-3">
-            <li class="nav-item dropdown px-3">
-                <a class="nav-link text-white dropdown-toggle" id="navuser" role="button" data-toggle="dropdown" href="#">Olá, Alan Raphael</a>
-                <div class="dropdown-menu" arian-labelledby="navuser">
-                    <a class="dropdown-item" href="#"><span data-feather="edit"></span> Minha conta</a>
-                    <a class="dropdown-item" href="#"><span data-feather="help-circle"></span> Ajuda</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><span data-feather="log-out"></span> Sair</a>
-                </div>
-            </li>
-        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtopbar" aria-controls="navtopbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navtopbar" class="collapse navbar-collapse flex-row-reverse">
+            <ul class="navbar-nav px-3">
+                <li class="nav-item dropdown px-3">
+                    <a class="nav-link text-white dropdown-toggle" id="navuser" role="button" data-toggle="dropdown" href="#">Olá, Alan Raphael</a>
+                    <div class="dropdown-menu" arian-labelledby="navuser">
+                        <a class="dropdown-item" href="#"><span data-feather="edit"></span> Minha conta</a>
+                        <a class="dropdown-item" href="#"><span data-feather="help-circle"></span> Ajuda</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><span data-feather="log-out"></span> Sair</a>
+                    </div>
+                </li>
+            </ul>
         </div>
+
     </nav>
 
     <div class="container-fluid">
         <div class="row">
-            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+            <nav class="col-lg-2 d-none d-lg-block bg-light sidebar">
                 <div class="sidebar-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
@@ -84,7 +89,7 @@
                 </div>
             </nav>
 
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <main role="main" class="ml-sm-auto col-lg-10 px-4 px-sm-3">
                 <div class="pt-3 pb-2 mb-3 border-bottom">
                     <h1 class="h2">Dashboard</h1>
                 </div>
@@ -92,17 +97,17 @@
                 <div class="container-fluid">
                     <div class="row text-light font-weight-bold">
 
-                        <div class="col-sm-3 bg-info p-3 mr-auto card-dash rounded">
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-3 bg-info p-3 mr-xl-auto card-dash rounded">
                             R$ 1.467,00
                             <span>Total a receber</span>
                         </div>
 
-                        <div class="col-sm-3 bg-danger p-3 m-auto card-dash rounded">
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-3 bg-danger p-3 m-xl-auto card-dash rounded">
                             R$ 800,00
                             <span>Total bloqueado</span>
                         </div>
 
-                        <div class="col-sm-3 bg-success p-3 ml-auto card-dash rounded">
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-3 bg-success p-3 ml-xl-auto card-dash rounded">
                             R$ 667,00
                             <span>Total disponível para saque</span>
                         </div>
@@ -111,7 +116,7 @@
                 </div>
 
                 <div class="row mt-5">
-                    <div class="col-sm-6">
+                    <div class="col-md-6">
                         <h5>Últimas 10 vendas</h5>
                         <div class="table-responsive">
                             <table class="table table-striped table-sm">
@@ -189,7 +194,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <h5>Top 10 lojistas (fevereiro)</h5>
                         <div class="table-responsive">
                             <table class="table table-striped table-sm">
